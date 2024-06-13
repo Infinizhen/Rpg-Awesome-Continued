@@ -22,7 +22,7 @@ Then in your code, you can use rpg-awesome by pathing to it:
 If you are using Sass, you can import it directly:
 
 ```
-@import "node_modules/rpg-awesome/scss/rpg-awesome-continued";
+@import "node_modules/@infinizhen/rpg-awesome-continued/scss/rpg-awesome-continued";
 ```
 
 ## Developing
