@@ -9,6 +9,8 @@
   "homepage": "https://github.com/Infinizhen/Rpg-Awesome-Continued",
   "style": "css/rpg-awesome.css",
   "sass": "scss/rpg-awesome.scss",
+  "license": "MIT",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/Infinizhen/Rpg-Awesome-Continued.git"
