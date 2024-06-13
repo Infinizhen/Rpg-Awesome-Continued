@@ -1,24 +1,19 @@
 {
-  "name": "rpg-awesome",
-  "description": "A fantasy themed font and CSS toolkit.",
+  "name": "rpg-awesome-continued",
+  "description": "A fantasy themed font and CSS toolkit. Originally made by @nagoshiashumari and continued by @Infinizhen.",
   "main": [
     "scss/rpg-awesome.scss",
     "css/rpg-awesome.css",
     "css/rpg-awesome.min.css"
   ],
   "authors": [
+    "Miguel Rodríguez (@infinizhen) <contacto@mrbonhome.com>",
     "Daniela Howe",
     "Ivan Montiel <idmontie@gmail.com>"
   ],
   "license": "MIT",
-  "keywords": [
-    "rpg",
-    "font",
-    "awesome",
-    "css",
-    "toolkit"
-  ],
-  "homepage": "https://github.com/nagoshiashumari/Rpg-Awesome",
+  "keywords": ["rpg", "font", "awesome", "css", "scss", "continued", "toolkit"],
+  "homepage": "https://github.com/Infinizhen/Rpg-Awesome-Continued",
   "moduleType": [],
   "ignore": [
     "**/.*",

@@ -4,58 +4,53 @@
 // gem install scss-lint
 
 module.exports = function (grunt) {
-  'use strict';
+  "use strict";
   // Project configuration
   grunt.initConfig({
     // Metadata
-    pkg: grunt.file.readJSON('package.json'),
-    banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
-        '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
-        '<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
-        '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
-        ' Licensed <%= props.license %> */\n',
+    pkg: grunt.file.readJSON("package.json"),
+    banner:
+      "/*! <%= pkg.name %> - v<%= pkg.version %> - " +
+      '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
+      '<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
+      '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
+      " Licensed <%= props.license %> */\n",
     // SCSS Lint
     // =========
     scsslint: {
-      allFiles: [
-          'scss/*.scss'
-      ],
+      allFiles: ["scss/*.scss"],
       options: {
-        config: 'scss/.scss-lint.yml'
-     }
+        config: "scss/.scss-lint.yml",
+      },
     },
     // SASS Compile
     // ============
     sass: {
       options: {
-        style: 'expanded',
-        sourcemap: 'auto'
+        style: "expanded",
+        sourcemap: "auto",
       },
       dist: {
         files: {
-          'css/rpg-awesome.css' : 'scss/rpg-awesome.scss'
-        }
-      }
+          "css/rpg-awesome-continued.css": "scss/rpg-awesome-continued.scss",
+        },
+      },
     },
     // CSS Min
     // =======
     cssmin: {
       target: {
         files: {
-          'css/rpg-awesome.min.css' : 'css/rpg-awesome.css'
-        }
-      }
-    }
+          "css/rpg-awesome-continued.min.css": "css/rpg-awesome-continued.css",
+        },
+      },
+    },
   });
 
   // These plugins provide necessary tasks
-  grunt.loadNpmTasks('grunt-scss-lint');
-  grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks("grunt-scss-lint");
+  grunt.loadNpmTasks("grunt-contrib-sass");
+  grunt.loadNpmTasks("grunt-contrib-cssmin");
 
-  grunt.registerTask('default', [
-      'scsslint',
-      'sass',
-      'cssmin'
-  ]);
+  grunt.registerTask("default", ["scsslint", "sass", "cssmin"]);
 };

@@ -1,20 +1,36 @@
 {
-  "name": "rpg-awesome",
+  "name": "@infinizhen/rpg-awesome-continued",
+  "version": "1.0.0",
+  "description": "A fantasy themed font and CSS toolkit. Originally made by @nagoshiashumari and continued by @Infinizhen.",
+  "author": {
+    "name": "Miguel Rodríguez (@Infinizhen)",
+    "email": "contacto@mrbonhome.com"
+  },
+  "homepage": "https://github.com/Infinizhen/Rpg-Awesome-Continued",
   "style": "css/rpg-awesome.css",
   "sass": "scss/rpg-awesome.scss",
-  "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nagoshiashumari/Rpg-Awesome.git"
+    "url": "https://github.com/Infinizhen/Rpg-Awesome-Continued.git"
   },
   "devDependencies": {
-    "grunt": "~0.4.5",
+    "grunt-contrib-cssmin": "~0.11.0",
     "grunt-contrib-sass": "~0.8.1",
-    "grunt-scss-lint": "~0.3.4",
-    "grunt-contrib-cssmin": "~0.11.0"
+    "grunt-scss-lint": "^0.3.8"
   },
   "scripts": {
     "build": "grunt",
     "test": "grunt scsslint"
-  }
+  },
+  "keywords": [
+    "font",
+    "icon",
+    "fantasy",
+    "rpg",
+    "awesome",
+    "css",
+    "sass",
+    "scss",
+    "toolkit"
+  ]
 }

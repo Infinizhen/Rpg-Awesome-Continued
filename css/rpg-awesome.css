@@ -27,8 +27,8 @@
 
 /* makes the font 33% larger relative to the icon container */
 .ra-lg {
-  font-size: 1.3333333333em;
-  line-height: 0.75em;
+  font-size: calc(4em / 3);
+  line-height: calc(3em / 4);
   vertical-align: -15%;
 }
 
@@ -50,12 +50,12 @@
 
 .ra-fw {
   text-align: center;
-  width: 1.2857142857em;
+  width: calc(18em / 14);
 }
 
 .ra-ul {
   list-style-type: none;
-  margin-left: 2.1428571429em;
+  margin-left: calc(30em / 14);
   padding-left: 0;
 }
 .ra-ul > li {
@@ -63,14 +63,14 @@
 }
 
 .ra-li {
-  left: -2.1428571429em;
+  left: -calc(30em / 14);
   position: absolute;
   text-align: center;
-  top: 0.1428571429em;
-  width: 2.1428571429em;
+  top: calc(2em / 14);
+  width: calc(30em / 14);
 }
 .ra-li.ra-lg {
-  left: -1.8571428571em;
+  left: -calc(30em / 14)calc(4em / 14);
 }
 
 .ra-border {
