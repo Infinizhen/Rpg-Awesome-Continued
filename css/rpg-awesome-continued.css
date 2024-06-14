@@ -1,15 +1,14 @@
 @charset "UTF-8";
 /*!
  * RPG Awesome 0.0.2 by Daniela Howe, Ivan Montiel
- * License - https://github.com/nagoshiashumari/Rpg-Awesome/blob/master/LICENSE.md
+ * License - https://github.com/infinizhen/Rpg-Awesome-Continued/blob/master/LICENSE.md
  * (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
  * -------------------------- */
 @font-face {
   font-family: 'RPGAwesome';
-  src: url("../fonts/rpgawesome-webfont.eot?v=0.1.0");
-  src: url("../fonts/rpgawesome-webfont.eot?#iefix&v=0.1.0") format("embedded-opentype"), url("../fonts/rpgawesome-webfont.woff?v=0.1.0") format("woff"), url("../fonts/rpgawesome-webfont.ttf?v=0.1.0") format("truetype"), url("../fonts/rpgawesome-webfont.svg?v=0.1.0#rpg-awesome") format("svg");
+  src: url("../fonts/rpgawesome-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
